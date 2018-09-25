@@ -1,6 +1,10 @@
 class Hash
   def keys_of(*arguments)
-    output=[]
+    self.map do |key, value|
+      if arguments.include?(value)
+        key
+      end
+    end
     
   end
 end
