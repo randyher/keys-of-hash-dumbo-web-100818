@@ -5,6 +5,5 @@ class Hash
         key
       end
     end.compact
-    
   end
 end
